@@ -1,12 +1,12 @@
-algoritmo "helloworld"
+algoritmo "semnome"
 // Função :
 // Autor :
 // Data : 19/10/2023
 // Seção de Declarações 
 var
-
+msg: caractere
 inicio
 // Seção de Comandos
-Escreval("HELLO WORLD!")
-Escreval("Me livrei da Maldição")
+ msg <- "Hello World"
+ escreval("Mensagen: " , msg)
 fimalgoritmo
